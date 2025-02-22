@@ -1,5 +1,51 @@
 # Exchange Controller API Documentation
 
+A Spring Boot REST API that fetches real-time exchange rates and performs currency conversion.
+
+---
+
+## Features
+- Fetches live exchange rates from a public API  
+- Converts an amount from one currency to another  
+- Handles errors like invalid currency codes or API unavailability  
+
+---
+
+## Tech Stack
+- Java 17+  
+- Spring Boot  
+- Maven  
+- RestTemplate (for API calls)  
+- JUnit (for testing)  
+
+---
+
+## Getting Started
+
+### 1. Clone the Repository
+```sh
+git clone https://github.com/yourname/currency-converter-api.git
+cd currency-converter-api
+```
+
+### 2. Build the Project
+Ensure you have **Maven** installed, then run:
+```sh
+mvn clean install
+```
+
+### 3. Run the Application
+Start the Spring Boot app with:
+```sh
+mvn spring-boot:run
+```
+By default, the API will be available at:
+```
+http://localhost:8080
+```
+
+---
+
 ## POST /api/v1/exchange/convert
 
 ### Request Body
