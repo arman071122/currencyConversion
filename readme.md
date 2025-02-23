@@ -24,7 +24,7 @@ A Spring Boot REST API that fetches real-time exchange rates and performs curren
 
 ### 1. Clone the Repository
 ```sh
-git clone https://github.com/yourname/currency-converter-api.git
+git clone https://github.com/arman071122/currencyConversion.git
 cd currency-converter-api
 ```
 
